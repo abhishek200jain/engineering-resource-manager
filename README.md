@@ -147,9 +147,6 @@ The API returns standard HTTP status codes:
 This project is licensed under the ISC License. 
 
 
-## ----------------------------------------------------------------------------------------
-
-
 # Resource Management System - Frontend
 
 This is the frontend application for the Resource Management System, built with React, TypeScript, and Vite.
@@ -231,3 +228,26 @@ src/
 ## License
 
 [Add your license here]
+
+### Tools Used:
+- **Cursor AI** – Used as the primary coding environment to assist with real-time code suggestions and file generation (models, routes, controllers).
+- **ChatGPT** – Used for:
+  - Generating boilerplate code for Express.js routes, Mongoose models, and authentication middleware
+  - Designing API structures and validating architecture decisions
+  - Writing seeding logic and validating `getAvailableCapacity()` & skill-matching logic
+  - Debugging errors during early setup of JWT and MongoDB
+- **Perplexity AI** – Used for:
+  - Researching best practices in structuring fullstack Node.js + React apps
+  - Confirming role-based access control logic patterns
+  - Clarifying differences between REST conventions for engineers vs managers
+
+### Responsible Usage:
+- All AI-generated code was reviewed line-by-line.
+- Logic was customized to meet assignment-specific requirements.
+- Edge cases and error handling were manually added and tested.
+- No code was blindly copy-pasted — everything was validated through local testing and logging.
+
+### AI Challenges & Resolutions:
+- AI occasionally generated overly generic middleware logic; this was refined manually.
+- JWT-related logic required adjustment for multi-role access.
+- Frontend form validation needed manual tuning beyond AI output to match React Hook Form + ShadCN standards.
