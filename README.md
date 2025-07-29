@@ -229,6 +229,9 @@ src/
 
 [Add your license here]
 
+## Demo video link
+[click here to watch demo](https://drive.google.com/file/d/19moiyqbTuXp3tofWRAj03rd507ZxEKoj/view?usp=sharing)
+
 ### Tools Used:
 - **Cursor AI** – Used as the primary coding environment to assist with real-time code suggestions and file generation (models, routes, controllers).
 - **ChatGPT** – Used for:
